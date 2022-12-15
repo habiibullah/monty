@@ -1,27 +1,3 @@
-
-bdbaraban
-/
-monty
-Public
-forked from BennettDixon/monty
-Code
-Pull requests
-Actions
-Projects
-Security
-Insights
-monty/tokenize_string.c
-@234761
-234761 Reorganize error files and update styling and documentation for all f…
-…
- 2 contributors
-@234761@BennettDixon
-171 lines (152 sloc)  2.91 KB
-/*
- * File: tokenize_string.c
- * Auth: Bennett Dixon
- */
-
 #include <stdlib.h>
 
 char **strtow(char *str, char *delims);
